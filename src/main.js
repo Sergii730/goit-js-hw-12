@@ -69,7 +69,7 @@ async function handleLoadMore() {
   try {
     const { hits, totalHits } = await getImagesByQuery(query, page);
     hideLoader();
-    clearGallery(hits);
+    createGallery(hits);
 
     if (page * PER_PAGE < totalHits) {
       showLoadMoreButton();

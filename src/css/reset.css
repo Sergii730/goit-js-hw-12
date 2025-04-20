@@ -32,7 +32,6 @@ button {
   gap: 10px;
   border-radius: 8px;
   padding: 8px 16px;
-  width: 91px;
   height: 40px;
   background-color: #4e75ff;
   font-weight: 500;
@@ -124,6 +123,7 @@ input:active {
 .load-more.button {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 32px;
   margin-bottom: 25px;
 }
 
